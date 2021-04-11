@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PyVideo.org</title><link href="/" rel="alternate"></link><link href="/feeds/speaker_da-dao-he-hui.atom.xml" rel="self"></link><id>/</id><updated>2019-09-16T00:00:00+00:00</updated><entry><title>Djangoで実践ドメイン駆動設計による実装</title><link href="/pycon-jp-2019/djangodeshi-jian-domeinqu-dong-she-ji-niyorushi-zhuang.html" rel="alternate"></link><published>2019-09-16T00:00:00+00:00</published><updated>2019-09-16T00:00:00+00:00</updated><author><name>大島和輝</name></author><id>tag:,2019-09-16:pycon-jp-2019/djangodeshi-jian-domeinqu-dong-she-ji-niyorushi-zhuang.html</id><summary type="html">&lt;h3&gt;Description&lt;/h3&gt;&lt;p&gt;01_602_Djangoで実践ドメイン駆動設計による実装(大島和輝)&lt;/p&gt;
+</summary></entry></feed>

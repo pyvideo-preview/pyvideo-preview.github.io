@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PyVideo.org</title><link href="/" rel="alternate"></link><link href="/feeds/speaker_randy-leveque.atom.xml" rel="self"></link><id>/</id><updated>2015-10-05T00:00:00+00:00</updated><entry><title>Keynote - Randy LeVeque</title><link href="/euroscipy-2015/keynote-randy-leveque.html" rel="alternate"></link><published>2015-10-05T00:00:00+00:00</published><updated>2015-10-05T00:00:00+00:00</updated><author><name>Randy LeVeque</name></author><id>tag:,2015-10-05:euroscipy-2015/keynote-randy-leveque.html</id><summary type="html">&lt;h3&gt;Description&lt;/h3&gt;&lt;p&gt;Jupyter notebooks for teaching, documentation, and reproducible research.&lt;/p&gt;
+</summary></entry></feed>

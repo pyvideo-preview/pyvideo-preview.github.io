@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PyVideo.org</title><link href="/" rel="alternate"></link><link href="/feeds/speaker_benjamin-talmard.atom.xml" rel="self"></link><id>/</id><updated>2017-06-12T00:00:00+00:00</updated><entry><title>Serverless architecture in Python with Azure Functions</title><link href="/pyparis-2017/serverless-architecture-in-python-with-azure-functions.html" rel="alternate"></link><published>2017-06-12T00:00:00+00:00</published><updated>2017-06-12T00:00:00+00:00</updated><author><name>Benjamin Talmard</name></author><id>tag:,2017-06-12:pyparis-2017/serverless-architecture-in-python-with-azure-functions.html</id><summary type="html">&lt;h3&gt;Description&lt;/h3&gt;&lt;p&gt;Come to learn more on how to leverage serverless architecture in your
+Python based solutions. From IoT to APIs including async taks in your
+web applications, serverless can change your mind about the Cloud.&lt;/p&gt;
+</summary></entry></feed>

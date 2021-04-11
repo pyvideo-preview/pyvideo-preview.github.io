@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PyVideo.org</title><link href="/" rel="alternate"></link><link href="/feeds/speaker_kacie-houser.atom.xml" rel="self"></link><id>/</id><updated>2014-10-05T00:00:00+00:00</updated><entry><title>Asynchronous Programming with Tornado Web Server</title><link href="/pytexas-2014/asynchronous-programming-with-tornado-web-server.html" rel="alternate"></link><published>2014-10-05T00:00:00+00:00</published><updated>2014-10-05T00:00:00+00:00</updated><author><name>Kacie Houser</name></author><id>tag:,2014-10-05:pytexas-2014/asynchronous-programming-with-tornado-web-server.html</id><summary type="html">&lt;h3&gt;Description&lt;/h3&gt;&lt;p&gt;I will define what asynchronous means and why it is useful for todays
+web applications. I will also give and introduction to using Tornado web
+server and go over syntax. Then I'll will do a code walk through of
+small project I wrote using Tornado Web Server and virtualenv that
+utilizes calls Google maps API and demonstrates asynchronous calls.&lt;/p&gt;
+</summary><category term="asynchronous"></category><category term="tornado"></category></entry></feed>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PyVideo.org</title><link href="/" rel="alternate"></link><link href="/feeds/speaker_angel-lopez.atom.xml" rel="self"></link><id>/</id><updated>2013-10-24T00:00:00+00:00</updated><entry><title>Implementando Python en JavaScript</title><link href="/pycon-ar-2013/implementando-python-en-javascript.html" rel="alternate"></link><published>2013-10-24T00:00:00+00:00</published><updated>2013-10-24T00:00:00+00:00</updated><author><name>Angel Lopez</name></author><id>tag:,2013-10-24:pycon-ar-2013/implementando-python-en-javascript.html</id><summary type="html">&lt;h3&gt;Description&lt;/h3&gt;&lt;p&gt;Implementación de Python en JavaScript&lt;/p&gt;
+&lt;p&gt;Help us caption &amp;amp; translate this video!&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://amara.org/v/DKnu/"&gt;http://amara.org/v/DKnu/&lt;/a&gt;&lt;/p&gt;
+</summary></entry></feed>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PyVideo.org</title><link href="/" rel="alternate"></link><link href="/feeds/speaker_leo-guinan.atom.xml" rel="self"></link><id>/</id><updated>2018-07-28T00:00:00+00:00</updated><entry><title>Go with the Flow: Automating Your Workflows with Airflow</title><link href="/pyohio-2018/go-with-the-flow-automating-your-workflows-with-airflow.html" rel="alternate"></link><published>2018-07-28T00:00:00+00:00</published><updated>2018-07-28T00:00:00+00:00</updated><author><name>Leo Guinan</name></author><id>tag:,2018-07-28:pyohio-2018/go-with-the-flow-automating-your-workflows-with-airflow.html</id><summary type="html">&lt;h3&gt;Description&lt;/h3&gt;&lt;p&gt;We all have workflows in our daily lives. From simple ones in our
+personal lives, to terribly complex ones in our daily work, we could all
+benefit from automating these workflows. Airflow is the mechanism with
+which we can do this. In this talk, we will explore what Airflow is, and
+how we can leverage it to automate some of the tedium out of our daily
+lives.&lt;/p&gt;
+</summary></entry></feed>

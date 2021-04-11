@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PyVideo.org</title><link href="/" rel="alternate"></link><link href="/feeds/speaker_kelsey-hightower.atom.xml" rel="self"></link><id>/</id><updated>2017-05-21T00:00:00+00:00</updated><entry><title>Keynote: Kubernetes for Pythonistas</title><link href="/pycon-us-2017/keynote-kubernetes-for-pythonistas.html" rel="alternate"></link><published>2017-05-21T00:00:00+00:00</published><updated>2017-05-21T00:00:00+00:00</updated><author><name>Kelsey Hightower</name></author><id>tag:,2017-05-21:pycon-us-2017/keynote-kubernetes-for-pythonistas.html</id><summary type="html">&lt;h3&gt;Description&lt;/h3&gt;&lt;p&gt;Sunday afternoon keynote by Kelsey Hightower&lt;/p&gt;
+</summary></entry></feed>
