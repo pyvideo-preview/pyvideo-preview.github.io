@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://use.fontawesome.com/2231f865fc.js"></script>
+    <link rel="shortcut icon" href="https://pyvideo.org/theme/images/favicon.png">
+    <meta name="google-site-verification" content="cHuieLjiIIDAHKKXSPPDsnbLEz9QgVNTi23qy_mOzDU" />
+
+    <title>PyVideo.org &middot; 醫療影像 AI 產品落地挑戰與持續優化的歷程分享｜陳穗碧｜PyCon APAC 2022</title>
+
+    <link href="https://pyvideo.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="PyVideo.org Full Atom Feed" />
+    <link href="https://pyvideo.org/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="PyVideo.org Full RSS Feed" />
+    <link href="https://pyvideo.org/feeds/event_pycon-apac-2022.atom.xml" type="application/atom+xml" rel="alternate" title="PyVideo.org Event Atom Feed" />
+    <link href="https://pyvideo.org/feeds/event_pycon-apac-2022.rss.xml" type="application/rss+xml" rel="alternate" title="PyVideo.org Event RSS Feed" />
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw=="
+          crossorigin="anonymous">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/theme/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/theme/css/base.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+  <meta property="og:site_name" content="PyVideo.org" />
+  <meta property="og:title" content="醫療影像 AI 產品落地挑戰與持續優化的歷程分享｜陳穗碧｜PyCon APAC 2022" />
+  <meta property="og:type" content="video" />
+  <meta property="og:url" content="../pycon-apac-2022/yi-liao-ying-xiang-ai-chan-pin-luo-di-tiao-zhan-yu-chi-xu-you-hua-de-li-cheng-fen-xiang-chen-sui-bi-pycon-apac-2022.html" />
+    <meta property="og:image" content="https://i.ytimg.com/vi/kHyS-PL8eEY/hqdefault.jpg" />
+    <meta property="og:image:secure_url" content="https://i.ytimg.com/vi/kHyS-PL8eEY/hqdefault.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+
+
+</head>
+
+<body>
+<a class="github" href="https://github.com/pyvideo/pyvideo/wiki/How-to-Contribute-Media">
+    <img style="position: absolute; top: 0; right: 0; border: 0; z-index: 2;" src="/images/contribute_to_me_right_red_aa0000.png" alt="Contribute Media" />
+</a>
+  <div class="header notice clearfix">
+    A thank you to everyone who makes this possible:
+    <a href="/pages/thank-you-contributors.html">Read More</a>
+  </div>
+  <header id="banner" class="header clearfix">
+    <nav class="header__nav"><div class="container">
+      <ul class="nav">
+        <li role="presentation">
+          <a href="../index.html"><i class="fa fa-fw fa-home"></i> <span>Start</span></a>
+        </li>
+
+        <li role="presentation" class="active">
+          <a href="../events.html"><i class="fa fa-fw fa-list-ul"></i> <span>Events</span></a>
+        </li>
+
+        <li role="presentation">
+          <a href="../tags.html"><i class="fa fa-fw fa-tags"></i> <span>Tags</span></a>
+        </li>
+
+        <li role="presentation">
+          <a href="../speakers.html"><i class="fa fa-fw fa-users"></i> <span>Speakers</span></a>
+        </li>
+
+          <li role="presentation"
+>
+            <a href="../pages/about.html"><i class="fa fa-fw fa-info"></i> <span>About</span></a>
+          </li>
+          <li role="presentation"
+style="display: none;">
+            <a href="../pages/thank-you-contributors.html"><i class="fa fa-fw fa-info"></i> <span>Thank You</span></a>
+          </li>
+          <li role="presentation"
+style="display: none;">
+            <a href="../pages/thanks-will-and-sheila.html"><i class="fa fa-fw fa-info"></i> <span></span></a>
+          </li>
+      </ul>
+    </div></nav>
+    <div class="container">
+      <h3 class="text-muted header__title">
+      <a href="../"><img src="/theme/images/logo.png" alt="" style="height:50px"> <span><i>Py</i>Video</span> <strong></strong></a>
+      </h3>
+      <div class="header__searchbox">
+        <form method="GET" action="/search.html">
+          <input name="q" type="search" placeholder="Type / to search...">
+        </form>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">
+      <a href="../pycon-apac-2022/yi-liao-ying-xiang-ai-chan-pin-luo-di-tiao-zhan-yu-chi-xu-you-hua-de-li-cheng-fen-xiang-chen-sui-bi-pycon-apac-2022.html" rel="bookmark"
+         title="Permalink to 醫療影像 AI 產品落地挑戰與持續優化的歷程分享｜陳穗碧｜PyCon APAC 2022">醫療影像 AI 產品落地挑戰與持續優化的歷程分享｜陳穗碧｜PyCon APAC 2022
+      </a>
+    </h2>
+ 
+  </header>
+
+  <footer class="post-info">
+    <time class="published" datetime="2022-09-03T00:00:00+00:00">
+      <i class="fa fa-calendar"></i> Sat 03 September 2022
+    </time>
+    <address class="vcard author">
+      By
+        <a class="url fn" href="../speaker/chen-sui-bi.html">陳穗碧</a>
+    </address>
+  </footer><!-- /.post-info -->
+
+  <div class="entry-content">
+<ul class="nav nav-tabs" role="tablist">
+    <li class="active" role="presentation"><a href="#youtube" aria-controls="youtube" role="tab" data-toggle="tab">
+        <i class="fa fa-fw fa-youtube"></i> YouTube
+    </a></li>
+</ul>
+
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="youtube">
+        <div class="embed-responsive embed-responsive-16by9 videocontainer">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kHyS-PL8eEY" title="Video for " frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>    <h3>Description</h3><p>PyCon APAC 2022｜一般演講 Talks｜國泰金控 Cathay Financial Holdings / 美光科技 Micron 冠名贊助</p>
+<p>✏️ 共筆 Note：<a class="reference external" href="https://hackmd.io/&#64;pycontw/rJzkw6Qko">https://hackmd.io/&#64;pycontw/rJzkw6Qko</a>
+🖐🏻 Slido：<a class="reference external" href="https://app.sli.do/event/cW2ZdB9b7zc7bWcikzZxc3">https://app.sli.do/event/cW2ZdB9b7zc7bWcikzZxc3</a>
+🪧 投影片 Slides：<a class="reference external" href="https://drive.google.com/drive/folders/1KOwNMx-hYn6VaME1O5PlmIzuhSEAfq7p?usp=sharing">https://drive.google.com/drive/folders/1KOwNMx-hYn6VaME1O5PlmIzuhSEAfq7p?usp=sharing</a>
+💬 語言 Language：中文演講/英文投影片 Chinese talk w. English slides
+🎯 層級 Level：中階 Intermediate
+🔎 分類 Category：機器學習 Machine Learning</p>
+<p>💡 摘要 Abstract 💡
+醫療影像 AI 產品，受限於醫療場域的特性，與其他領域 AI產品資料回饋設計上更具挑戰性，其挑戰來自於 AI 每一張辨識結果皆需要醫師判定後，才能得知 AI 模型的表現，因此，醫療影像 AI 很難進行即時的監控與持續優化模型，本演講將以童綜合醫院的醫療影像 AI 產品為例，分享我們將AI實際導入醫院，如何從基礎可用的 AI 系統架構，打破影像 AI 的標註思維，運用自然語言處理的模組，逐步迭代打造出來能監控 AI 現況與持續優化 AI 的現行系統，分享過程中所遇到的挑戰，以及我們的解決方案。 希望能將這些內容分享給以下的人：
+1. 想要學習的如何優化 AI 模型的 Python/AI 工程師 - AI 上線後，搭配怎樣的工具，進行即時 AI 的準確度監控 - 當收到 AI 辨識錯誤的結果時，如何判斷錯誤的類型，找到優化的下一步。
+2. 帶領團隊維運 AI 產品的 Team Lead - 如何慢慢打破原有的思考邏輯，找到可信度高以及回饋頻繁的可用資料，當資料偏移，仍可持續優化模型的資料閉環架構。</p>
+<p>🚀 講者介紹 About Speaker - 陳穗碧 🚀
+AI資料科學家與生活實踐者，為資料與生活的配方師，善於觀察，透過數據、行為與現象發現事物的變化，運用心理學、行為科學與資料科學演算法探究內部的本質與原因，讓生活、社會與世界更美好。 2021 進入醫療場域，推動AI 技術與落地，產生價值。</p>
+<p>個人網站: <a class="reference external" href="https://smallstepsblog.com/">https://smallstepsblog.com/</a>
+Email: <a class="reference external" href="mailto:suipichen&#64;gmail.com">suipichen&#64;gmail.com</a>
+Linkedin: <a class="reference external" href="https://www.linkedin.com/in/suipi-chen-a13b0ab3/">https://www.linkedin.com/in/suipi-chen-a13b0ab3/</a></p>
+<p>#python #pycontw #pyconapac2022 #artificialintelligence #pytorch #opencv #nltk #flask</p>
+<p>Follow “PyCon Taiwan”
+⭐️ Official Website: <a class="reference external" href="https://tw.pycon.org">https://tw.pycon.org</a>
+⭐️ Facebook: <a class="reference external" href="https://www.facebook.com/pycontw">https://www.facebook.com/pycontw</a>
+⭐️ Instagram: <a class="reference external" href="https://www.instagram.com/pycontw">https://www.instagram.com/pycontw</a>
+⭐️ Twitter: <a class="reference external" href="https://twitter.com/PyConTW">https://twitter.com/PyConTW</a>
+⭐️ LinkedIn: <a class="reference external" href="https://www.linkedin.com/company/pycontw">https://www.linkedin.com/company/pycontw</a>
+⭐️ Blogger: <a class="reference external" href="https://pycontw.blogspot.com">https://pycontw.blogspot.com</a></p>
+
+  </div><!-- /.entry-content -->
+
+<div class="details-content">
+  <h3>Details</h3>
+  <ul>
+      <li>
+        Event:
+        <a href="../events/pycon-apac-2022.html">PyCon APAC 2022</a>
+      </li>
+        <li>
+            Media URL: <a href="https://www.youtube.com/watch?v=kHyS-PL8eEY" rel="external">YouTube</a>        </li>
+
+  </ul>
+</div>
+    <a href="https://github.com/pyvideo/data/blob/main/pycon-apac-2022/videos/yi-liao-ying-xiang-ai-chan-pin-luo-di-tiao-zhan-yu-chi-xu-you-hua-de-li-cheng-fen-xiang-chen-sui-bi.json">
+      <i class="fa fa-pencil-square-o"></i> Improve this page
+    </a>
+
+</section>
+
+    <footer class="footer">
+      <p>
+        &copy;
+        <a href="https://github.com/pyvideo/pyvideo/blob/main/LICENSE">PyVideo.org</a> |
+        <a href="https://github.com/pyvideo/data/blob/main/LICENSE">pyvideo/data</a>
+      </p>
+    </footer>
+
+      <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <script src="/theme/js/ie10-viewport-bug-workaround.js"></script>
+      <script src="/theme/js/thumb.js"></script>
+      <script src="/theme/js/language.js"></script>
+      <script src="/theme/js/searchbar.js"></script>
+  </div>
+</body>
+</html>
